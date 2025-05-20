@@ -1,8 +1,8 @@
 <?php
-$host = "HOST_MYSQL";
-$user = "USERNAME_MYSQL";
-$pass = "PASSWORD_MYSQL";
-$db   = "NAMA_DATABASE";
+$host = "sql12.freesqldatabase.com";
+$user = "sql12779950";
+$pass = "IuvmKW82Y7";
+$db   = "sql12779950";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
